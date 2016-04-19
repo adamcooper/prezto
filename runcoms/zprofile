@@ -5,7 +5,6 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-export HOMEBREW_GITHUB_API_TOKEN='3b049afbd3fad7b8c690abb131990127890300f0'
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 #
