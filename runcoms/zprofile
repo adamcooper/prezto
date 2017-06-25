@@ -5,8 +5,7 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-export ANDROID_HOME=/usr/local/opt/android-sdk
-
+export ANDROID_HOME=${HOME}/Library/Android/sdk
 #
 # Browser
 #
@@ -19,8 +18,8 @@ fi
 # Editors
 #
 
-export EDITOR='vim'
-export VISUAL='vim'
+export EDITOR='nvim'
+export VISUAL='nvim'
 export PAGER='less'
 
 #
@@ -45,6 +44,7 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
+  $ANDROID_HOME/{platform-tools,tools}
   /usr/local/{bin,sbin}
   $path
 )
